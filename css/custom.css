@@ -49,14 +49,35 @@ html, body {
 }
 
 .page-5 {
-    background-color: #f5f5f5;
+    background-color: #f1dd66;
     font-weight: 300;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
 .page-6 {
-	background-color: #fffffe;
+	background-color: #f5f5f5;
+	font-weight: 300;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.page-7 {
+	background-color: #4a69ff73;
+	font-weight: 300;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.page-8 {
+	background-color: #ffffff;
+	font-weight: 300;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.page-9 {
+	background-color: #222;
 	font-weight: 300;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -117,6 +138,10 @@ html, body {
 	text-align: center;
 }
 
+.middle-w-text {
+	font-weight: 450;
+}
+
 .photo {
 	border-radius: 80px; 
 	width: 140px;
@@ -147,7 +172,7 @@ html, body {
 	color: #3e3e3e;
 }
 
-.job {
+/*.job {
 	margin-bottom: 0.7rem;
 	color: #353535;
 	font-weight: 300;
@@ -199,7 +224,7 @@ html, body {
     display: block;
     margin-left: auto;
     margin-right: auto 
-}
+}*/
 
 .img-01 {
 	max-height: 75px;
@@ -217,7 +242,7 @@ html, body {
 
 .sup-button {
 	margin-top: 1%;
-	margin-bottom: 3%;
+	margin-bottom: 4%;
 }
 
 .img-1 {
@@ -226,14 +251,20 @@ html, body {
 	border: 1px solid #dadada;
 }
 
-.img-l {text-align: right;}
+.foot {
+	float: right;
+    margin-top: 3%;
+    width: auto;
+}
+
+/*.img-l {text-align: right;}
 .wrapper {padding-bottom: 25px;}
 .contacts {font-size: 1.5rem; font-size: 3em; letter-spacing: 0.2em; text-align: center;}
 .foot {text-align: center;}
-.phone {font-size: 0.55em; letter-spacing: normal;}
-
+.phone {font-size: 0.55em; letter-spacing: normal;}*/
+/*
 .project {padding-top: 20px;}
-.project-2 {padding-bottom: 25px;}
+.project-2 {padding-bottom: 25px;}*/
 
 /*MOBILE
 ...............................................................*/
@@ -246,17 +277,19 @@ html, body {
 	.wrapper {display: table;}
 	.content-left {display: table-footer-group; text-align: left; padding-left: 0;}
 	.content-right {padding-right: 0;}
-	.img-l {display: table-header-group; float: none; text-align: center;}
-	.img-mob {text-align: center;}
-	.contact-icon {width: 13.3333333333%;}
+/*	.img-l {display: table-header-group; float: none; text-align: center;}
+	.img-mob {text-align: center;}*/
+/*	.contact-icon {width: 13.3333333333%;}
 	.contact-text {width: 82.6666666667%;}
 	.contacts {text-align: center; letter-spacing: 0.1em; padding-top: 0%; padding-left: 0%;}
-	.phone {font-size: 0.5em}
+	.phone {font-size: 0.5em}*/
 	.one.col.logotype-block {width: 80px; margin-left: 4%}
 	.eleven.col.logotype-text-block {width: auto; margin-left: 1%;}
+	.foot.six.col {width: auto;}
 }
 
 @media (max-width: 550px) {
 	.img-01 {max-width: 70%}
 	.main-button {margin-top: 6%;}
+	.foot.six.col {width: auto; margin-top: 6%;}
 }
