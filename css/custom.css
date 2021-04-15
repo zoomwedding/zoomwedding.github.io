@@ -97,6 +97,10 @@ html, body {
 	color: #1a1a1a;
 }
 
+.linkcolor {
+	color: #f0ef0e;
+}
+
 .logotype-size {
 	max-width: 80px;
 	max-height: 80px;
