@@ -172,60 +172,6 @@ html, body {
 	color: #3e3e3e;
 }
 
-/*.job {
-	margin-bottom: 0.7rem;
-	color: #353535;
-	font-weight: 300;
-}
-
-.job_logo_2 {
-	max-width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-}
-
-.name {font-size: 1.4em;}
-.post {font-size: 1.2em;}
-
-.duration {
-	font-size: 1em;
-	color: #7f7786;
-}
-
-.job_title_2 {
-	margin-bottom: 0.7rem;
-	color: #353535;
-	font-weight: 500;
-}
-
-.job_logo_sm {
-	max-width: 40%;
-	box-sizing: border-box;
-}
-
-.job_logo_sm_mid {
-	max-width: 40%;
-	box-sizing: border-box;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-	padding-top: 3px;
-}
-
-.job_logo {
-	max-width: 95%;
-	box-sizing: border-box;
-}
-
-.job_logo_au {
-	max-width: 60%;
-	box-sizing: border-box;
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}*/
-
 .img-01 {
 	max-height: 75px;
 	width: auto;
@@ -257,15 +203,6 @@ html, body {
     width: auto;
     margin-right: 4%;
 }
-
-/*.img-l {text-align: right;}
-.wrapper {padding-bottom: 25px;}
-.contacts {font-size: 1.5rem; font-size: 3em; letter-spacing: 0.2em; text-align: center;}
-.foot {text-align: center;}
-.phone {font-size: 0.55em; letter-spacing: normal;}*/
-/*
-.project {padding-top: 20px;}
-.project-2 {padding-bottom: 25px;}*/
 
 /*MOBILE
 ...............................................................*/
