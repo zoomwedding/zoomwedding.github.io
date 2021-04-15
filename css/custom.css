@@ -231,7 +231,7 @@ html, body {
 	.foot.six.col {width: auto;}
 	.logotype-text-block {width: auto;}
 	.one.col.telegram-size {width: 80px;}
-	.ten.col.logotype-text-block {width: auto; margin-top: 2%;}
+	.ten.col.logotype-text-block {width: auto;}
 }
 
 @media (max-width: 550px) {
