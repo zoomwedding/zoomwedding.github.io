@@ -98,6 +98,11 @@ html, body {
 	color: #1a1a1a;
 }
 
+.disk {
+	text-align: center;
+	color: #a0a0a0;
+}
+
 .linkcolor {
 	color: #f0ef0e;
 }
