@@ -216,7 +216,9 @@ html, body {
 
 .foot {
 	float: right;
-    margin-top: 3%;
+    padding-top: 31px;
+    font-size: 15px;
+/*    margin-top: 3%;*/
     width: auto;
     margin-right: 4%;
 }
@@ -243,5 +245,5 @@ html, body {
 @media (max-width: 550px) {
 	.img-01 {max-width: 70%}
 	.main-button {margin-top: 6%;}
-	.foot.six.col {width: auto; margin-top: 6%;}
+	.foot.six.col {width: auto; /*margin-top: 6%;*/}
 }
