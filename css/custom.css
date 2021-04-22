@@ -16,9 +16,56 @@ html, body {
 	background-color: #ffffff;
 	font-weight: 300;
 	padding-top: 50px;
-/*	padding-bottom: 10px;*/
-/*	height: 100%;*/
 	padding-bottom: 4%;
+}
+
+.page-1-payment {
+	background-clip: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color: #3fa9f5;
+	font-weight: 300;
+	padding-top: 50px;
+	padding-bottom: 4%;
+	height: 70%;
+	color: #ffffff;
+}
+
+.page-1-policy {
+	background-clip: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color: #334159;
+	font-weight: 300;
+	padding-top: 50px;
+	padding-bottom: 4%;
+	color: #ffffff;
+}
+
+.page-1-termsofuse {
+	background-clip: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color: #325ca7;
+	font-weight: 300;
+	padding-top: 50px;
+	padding-bottom: 4%;
+	color: #ffffff;
+}
+
+.page-1-personal {
+	background-clip: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color: #ff6479;
+	font-weight: 300;
+	padding-top: 50px;
+	padding-bottom: 4%;
+	color: #ffffff;
 }
 
 .page-white-text {
@@ -84,6 +131,13 @@ html, body {
 	padding-bottom: 25px;
 }
 
+.page-9-payment {
+	background-color: #ffffff;
+	font-weight: 300;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
 /*....................................................................*/
 .main-tit {
 	text-align: center;
@@ -91,6 +145,14 @@ html, body {
 	font-weight: 500;
 	padding-top: 100px;
 	padding-bottom: 30px;
+}
+
+.payment-tit {
+	text-align: center;
+	color: #ffffff;
+	font-weight: 500;
+	padding-top: 10px;
+	padding-bottom: 0px;
 }
 
 .main-subtit {
@@ -104,15 +166,19 @@ html, body {
 }
 
 .linkcolor {
-	color: #f0ef0e;
+	color: #fff900;
 }
 
 .logotype-size {
 	max-height: 80px;
 	margin-left: 3%;
-    margin-bottom: 6%;
     max-width: 80px;
     min-width: 50px;
+}
+
+.logotype-size-bot {
+	max-width: 50px;
+	margin-left: 18%;
 }
 
 .telegram-size {
@@ -131,11 +197,44 @@ html, body {
 	width: auto;
 }
 
+.logotype-text-block-payment {
+	margin-left: 4%;
+}
+
 .logotype-text {
 	margin-top: revert;
     margin-left: revert;
     padding-top: 15px;
 	color: #3fa9f5;
+	font-weight: 500;
+}
+
+.logotype-text-bot {
+    padding-top: 0px;
+	color: #3fa9f5;
+	font-weight: 500;
+	margin-bottom: 0;
+	padding-top: 10px;
+}
+
+.logotype-text-payment {
+	margin-top: revert;
+    margin-left: revert;
+    padding-top: 15px;
+    padding-left: 7%;
+	color: #3fa9f5;
+	font-weight: 500;
+}
+
+.link-dec {
+	text-decoration: none;
+}
+
+.logotype-text-white {
+	margin-top: revert;
+    margin-left: revert;
+    padding-top: 15px;
+	color: #ffffff;
 	font-weight: 500;
 }
 
@@ -159,34 +258,9 @@ html, body {
 	font-weight: 450;
 }
 
-.photo {
-	border-radius: 80px; 
-	width: 140px;
-}
-
-.main-phone {
-	margin-bottom: 0;
-	padding-top: 15px;
-}
-
-.main-mail {
-	margin-bottom: 0;
-}
-
-.main-link {
-	text-decoration: none;
-}
-
 .tit {
 	text-align: center;
 	color: #333333;
-}
-
-.mini-tit {
-	display: block;
-	padding-top: 20px;
-	font-weight: 300;
-	color: #3e3e3e;
 }
 
 .img-01 {
@@ -208,20 +282,22 @@ html, body {
 	margin-bottom: 4%;
 }
 
-.img-1 {
-	max-width: 80%;
-	border-radius: 2px;
-	border: 1px solid #dadada;
+.logotype-block-bot {
+	padding-left: 4%;
 }
 
-.foot {
-	float: right;
-    padding-top: 31px;
-    font-size: 15px;
-/*    margin-top: 3%;*/
-    width: auto;
-    margin-right: 4%;
+
+.page-link {
+	text-align: center;
+	margin-top: 10px;
+	padding-bottom: 10px;
 }
+
+.contacts {
+	color: white;
+	padding-bottom: 20px;
+}
+
 
 /*MOBILE
 ...............................................................*/
@@ -245,5 +321,10 @@ html, body {
 @media (max-width: 550px) {
 	.img-01 {max-width: 70%}
 	.main-button {margin-top: 6%;}
-	.foot.six.col {width: auto; /*margin-top: 6%;*/}
+	.foot.six.col {width: auto;}
+	.logotype-block-bot {text-align: center;}
+	.contacts {text-align: center; padding-top: 10px;}
+	.logotype-size-bot {margin-left: 0%;}
 }
+
+
