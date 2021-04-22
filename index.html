@@ -33,6 +33,13 @@
 
 <body>
 
+	<div id="overlay">
+	    <center>
+	        <p id="overlay-text">Вам исполнилось 18 лет?</p>
+	        <input type="button" id="ofAge" value="ДА" />
+	    </center>
+	</div>
+
 	<div class="page-1">
 		<div class="row">
 			<div class="one col logotype-block">
@@ -354,6 +361,33 @@
 	speed: 500
 });
 </script>
+
+
+
+
+
+<script type="text/javascript">
+	var pop = document.getElementById("overlay");
+
+	if ( document.cookie.indexOf("CERTIFIEDAGE18") >= 0 ) 
+	{
+	     pop.style.display = "none";
+	}
+
+	document.getElementById("ofAge").onclick = function() 
+	{
+	     document.cookie = "CERTIFIEDAGE18=true";
+	     // should add document.cookie.expires
+	     // as is, this will just be a session cookie
+
+	    pop.style.display = "none";
+	}
+</script>
+
+
+
+
+
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
