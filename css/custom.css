@@ -331,7 +331,7 @@ html, body {
 /*POPUP SCRIPST*/
 #overlay {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0%;
     left: 0%;
     width: 100%;
@@ -346,16 +346,23 @@ html, body {
 
 #overlay-text {
 	opacity: 100%;
-	font-size: 3rem;
+	font-size: 2.5rem;
 }
 
 #ofAge {
 	color: white;
-    font-size: 3rem;
-    background-color: #4a8bff;
+    font-size: 2.5rem;
     height: 5rem;
     width: 15rem;
     opacity: 100%;
+}
+
+.agebutton {
+	background-color: #4a8bff !important;
+}
+
+.agebutton:hover {
+	background-color: #ff6479 !important;
 }
 
 
