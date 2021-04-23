@@ -33,7 +33,7 @@ input[type="number"], input[type="text"], textarea{
     background: #eee;
     border-radius: 3px;
     padding: 14px 16px;
-    font-size: 1rem
+    font-size: 1.5rem
 }
 textarea{
 	height: 6em;
