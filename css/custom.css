@@ -315,6 +315,7 @@ html, body {
 	.logotype-text-block {width: auto;}
 	.one.col.telegram-size {width: 80px;}
 	.ten.col.logotype-text-block {width: auto;}
+	.two.col.point-block {width: 40px;}
 }
 
 @media (max-width: 550px) {
@@ -362,6 +363,32 @@ html, body {
 
 .agebutton:hover {
 	background-color: #ff6479 !important;
+}
+
+/*PAYMENT CALCULATOR*/
+.row4 {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc!important;
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.input-num {
+	width: -webkit-fill-available;
+}
+
+.point-block {
+	width: 40px;
+}
+
+.point-text-block {
+	width: auto;
+} 
+
+.point-check {
+    width: 25px;
+    height: 25px;
 }
 
 
