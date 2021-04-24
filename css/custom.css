@@ -316,6 +316,7 @@ html, body {
 	.one.col.telegram-size {width: 80px;}
 	.ten.col.logotype-text-block {width: auto;}
 	.two.col.point-block {width: 40px;}
+	.minhr {display: none;}
 }
 
 @media (max-width: 550px) {
@@ -325,6 +326,7 @@ html, body {
 	.logotype-block-bot {text-align: center;}
 	.contacts {text-align: center; padding-top: 10px;}
 	.logotype-size-bot {margin-left: 0%;}
+	.maxhr {display: none;}
 }
 
 
@@ -384,11 +386,20 @@ html, body {
 
 .point-text-block {
 	width: auto;
+	float: initial;	
 } 
 
 .point-check {
     width: 25px;
     height: 25px;
+}
+
+.calculator {
+	padding-top: 30px;
+}
+
+.minstyle {
+	padding-bottom: 20px;
 }
 
 

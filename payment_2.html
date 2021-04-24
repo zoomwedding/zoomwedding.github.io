@@ -25,7 +25,7 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/custom.css">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="style.css">
+<!-- 	<link rel="stylesheet" href="style.css"> -->
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
 	<script src="https://use.fontawesome.com/12100a7f0e.js"></script>
@@ -93,22 +93,9 @@
 		</div>
 	</div>
 
-	<div class="page-4">
-		<div class="container">
-		<div class="row">
-			<p>Самозанятый Тархов Андрей Евгеньевич
-				<br>
-					ИНН: 110120148248
-				<br>
-					Электронная почта: <a href="mailto:zoomwedding.ru@gmail.com">zoomwedding.ru@gmail.com</a>
-			</p>
-		</div>
-		</div>
-	</div>
-
 <!-- CALCULATOR CALCULATOR CALCULATOR CALCULATOR CALCULATOR -->
 		
-	<div id="canvas" class="container group">
+	<div id="canvas" class="container group calculator">
 
 		<div id="primaryContent" class="group">
 
@@ -118,17 +105,19 @@
 						<hr>
 
 						<div class="row">
-							<div class="six col">
+							<div class="six col min-box">
 								<h5>1. Запись на церемонию</h5>
 								<p>Стоимость: 105$ (8000₽)</p>
+								<hr class="minhr">
 							</div>
 							<div class="six col">
 								<h5>2. Электронное свидетельство о браке</h5>
-								<p>Стоимость: бесплатно</p>						
+								<p>Стоимость: бесплатно</p>	
+								<hr class="minhr">					
 							</div>
 						</div>
 
-						<hr>
+						<hr class="maxhr">
 
 						<div class="row">
 
@@ -182,6 +171,8 @@
 									</div>
 								</div>
 
+								<hr class="minhr">
+
 							</div>
 
 							<div class="six col">
@@ -196,7 +187,7 @@
 									</div>
 								</div>
 
-								<div class="row">
+								<div class="row method">
 									<div class="two col point-block">
 										<input type="radio" name="ship" value="ups" id="method-ups" class="point-check"> 
 									</div>
@@ -204,17 +195,39 @@
 										<label for="method-ups">Экспресс доставка FedEx (до 1 недели)</label>
 									</div>
 								</div>
+
+								<hr class="minhr">
+
 							</div>
 
 						</div>
 
-						<hr>
+						<hr class="maxhr">
 
+						<div class="row">
+							<h5>5. Сопровождение</h5>
 
+							<div class="row method">
+								<div class="two col point-block">
+									<input type="radio" name="sup" value="supmin" id="method-supmin" class="point-check"> 
+								</div>
+								<div class="ten col point-text-block">
+									<label for="method-supmin">Подача документов за вас, согласование даты онлайн-церемонии</label><br>
+								</div>
+							</div>
 
+							<div class="row method">
+								<div class="two col point-block">
+									<input type="radio" name="sup" value="supmax" id="method-supmax" class="point-check"> 
+								</div>
+								<div class="ten col point-text-block">
+									<label for="method-supmax">Подача документов за вас, согласование даты онлайн-церемонии, помощь с переводом на самой церемонии</label><br>
+								</div>								
+							</div>
+	
+						</div>
 
-
-					<div class="row row_p">
+<!-- 					<div class="row row_p">
 						<div class="item six col">
 							<h5>Запись на церемонию</h5>
 							<p class="info">
@@ -263,10 +276,11 @@
 							</div>
 						</div>
 
-					</div>
+					</div> -->
+
 				</fieldset>
 
-				<div id="summary">
+<!-- 				<div id="summary">
 
 					<h2>Provide the Shipping Details</h2>
 
@@ -309,22 +323,37 @@
 						<textarea id="message" name="message" rows="10" cols="2" placeholder="Any other special requests(does not affect the estimate)"></textarea>
 					</div>
 
-				</div>
+				</div> -->
 
 				<div class="group col2 calc">
-					<p> <label for="btn_estimate">Click To Estimate:</label><br>
+					<h5> <label for="btn_estimate">Итоговая стоимость:</label>
 
-						<input type="submit" value="Estimate Total" id="btn_estimate">
+						<input type="submit" value="Рассчитать" id="btn_estimate">
 						<input id="total_estimate" disabled="true" type="text" name="total" >
-					</p>
+					</h5>
 					<div id="results">
 
 					</div>
-				</div>
+					<br>
 
+				</div>
 
 			</form>  
 	    </div>
+	</div>
+
+	<div class="page-4">
+		<div class="container">
+		<div class="row">
+			<p>Самозанятый Тархов Андрей Евгеньевич
+				<br>
+					ИНН: 110120148248
+				<br>
+					Электронная почта: <a href="mailto:zoomwedding.ru@gmail.com">zoomwedding.ru@gmail.com</a>
+			</p>
+			<br>
+		</div>
+		</div>
 	</div>
 
 	<div class="page-9">
