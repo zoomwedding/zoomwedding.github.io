@@ -48,8 +48,24 @@ function estimateTotal(event) {
 
 	// var state_index = state.value;
 
-	var shipping = document.querySelector('input[name=ship]:checked').value || '';
-	var support = document.querySelector('input[name=sup]:checked').value || '';
+	var shipping = document.querySelector('input[name=ship]:checked'); 
+	// .value || '';
+	var support = document.querySelector('input[name=sup]:checked')
+	// .value || '';
+
+	if (shipping === null) {
+		shipping = '';
+	}
+	else {
+		shipping = shipping.value;
+	}
+
+	if (support === null) {
+		support = '';
+	}
+	else {
+		support = support.value;
+	}
 
 	// var special_gift = document.getElementById("gift").checked;
 	// var special_mailing = document.getElementById("mailing").checked;
@@ -102,7 +118,7 @@ function estimateTotal(event) {
 	var estimate = '$' + ((totalItemPrice + totalShippingCost) * supportCostPer).toFixed(2);
 	var estimaterub = ((totalItemPrice + totalShippingCost) * supportCostPer * 80).toFixed(0) + ' ₽';
 	
-	if (shipping = 0) {
+	if (shipping == 0) {
 		document.getElementById('total_estimate').value= 'введите больше информации';
 	}
 		document.getElementById('total_estimate').value=estimate + ' = ' + estimaterub;
