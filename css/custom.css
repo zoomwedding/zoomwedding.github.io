@@ -388,11 +388,18 @@ html, body {
 
 .point-text-block {
 	width: auto;
-	float: initial;	
+	float: initial;
+	display: grid;	
 } 
 
 .point-check {
     width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.point-check-sup {
+	width: 25px;
     height: 25px;
 }
 
