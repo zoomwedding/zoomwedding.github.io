@@ -1,31 +1,30 @@
 // JavaScript Document
 
-(function() {
-"use strict";
+// (function() {
+// "use strict";
 
-var state = document.getElementById("id_state");
+// var state = document.getElementById("id_state");
 
 document.addEventListener('DOMContentLoaded', function(){
 
-	document.getElementById('cart_custom').addEventListener('submit', estimateTotal);
+ 	document.getElementById('cart_custom').addEventListener('submit', estimateTotal);
 
 	var v_btn_estimate = document.getElementById('btn_estimate');
 
-	v_btn_estimate.disabled = true;
+	// v_btn_estimate.disabled = true;
 
+	// state.addEventListener('change', function(){
 
-	state.addEventListener('change', function(){
+	// 	if(state.value === ''){
+	// 		v_btn_estimate.disabled = true;
+	// 		console.log("True");
+	// 	}
+	// 	else{
+	// 		v_btn_estimate.disabled = false;
+	// 		console.log("False");
+	// 	}
 
-		if(state.value === ''){
-			v_btn_estimate.disabled = true;
-			console.log("True");
-		}
-		else{
-			v_btn_estimate.disabled = false;
-			console.log("False");
-		}
-
-	});
+	// });
 
 });
 
@@ -34,78 +33,83 @@ document.addEventListener('DOMContentLoaded', function(){
 function estimateTotal(event) {
 	event.preventDefault();
 	
-	if( state.value === ''){
-		alert('Please select the state you want to send your shipment');
-		state.focus();
-	}
+	// if( state.value === ''){
+	// 	alert('Please select the state you want to send your shipment');
+	// 	state.focus();
+	// }
 
-	var sneakers = parseInt(document.getElementById("bb_sneakers").value, 10 )|| 0;
-	var jersey = parseInt(document.getElementById("a_jersey").value, 10 )|| 0;
-	var supple = parseInt(document.getElementById("p_supple").value, 10 )|| 0;
-	var water = parseInt(document.getElementById("m_water").value, 10 )|| 0;
+	var bs0 = parseInt(document.getElementById("bs0").value, 10 )|| 0;
+	var bs1 = parseInt(document.getElementById("bs1").value, 10 )|| 0;
+	var bs2 = parseInt(document.getElementById("bs2").value, 10 )|| 0;
+	var bs3 = parseInt(document.getElementById("bs3").value, 10 )|| 0;
+	var cer = 105;
 	
-	console.log(water);
+	// console.log(water);
 
-	var state_index = state.value;
+	// var state_index = state.value;
 
 	var shipping = document.querySelector('input[name=ship]:checked').value || '';
+	var support = document.querySelector('input[name=sup]:checked').value || '';
 
-	var special_gift = document.getElementById("gift").checked;
-	var special_mailing = document.getElementById("mailing").checked;
-	var special_recipes = document.getElementById("recipes").checked;
+	// var special_gift = document.getElementById("gift").checked;
+	// var special_mailing = document.getElementById("mailing").checked;
+	// var special_recipes = document.getElementById("recipes").checked;
 
-	var t_message = document.getElementById("message").value;
+	// var t_message = document.getElementById("message").value;
 	
-	var shippingCostPer,
-		totalShippingCost, 
-		taxFactor = 1,
-		totalItemPrice, 
-		estimate;
+	// var shippingCostPer,
+	// 	totalShippingCost, 
+	// 	taxFactor = 1,
+	// 	totalItemPrice, 
+	// 	estimate;
 	
-	var t_quantity = sneakers + jersey + supple + water;
-	totalItemPrice = (sneakers * 90 ) + (jersey * 25) + (supple * 30) + (water * 4);
+	// var t_quantity = cer + bs0 + bs1 + bs2 + bs3;
+	var totalItemPrice = cer + (bs0 * 10 ) + (bs1 * 30) + (bs2 * 65) + (bs3 * 105);
 
-	if (state.value === 'CA'){
-		taxFactor = 1.075;
-	}
-	else if(state.value ==='WA'){
-		taxFactor = 1.065;	
-	}
+	// if (state.value === 'CA'){
+	// 	taxFactor = 1.075;
+	// }
+	// else if(state.value ==='WA'){
+	// 	taxFactor = 1.065;	
+	// }
 
 	switch(shipping){
 		case 'us':
-			shippingCostPer = 2;
+			shippingCostPer = 1.5 + 15; 
 			break;
-		case 'ups':
-			shippingCostPer = 3;	
+		case 'fedex':
+			shippingCostPer = 60 + 15;	
 			break;
 		default :
 			shippingCostPer = 0;
 			break;
 	}
 
-	totalShippingCost = shippingCostPer * t_quantity;
+	switch(support){
+		case 'supmin':
+			supportCostPer = 2;
+			break;
+		case 'supmax':
+			supportCostPer = 2.5;	
+			break;
+		default :
+			supportCostPer = 1;
+			break;
+	}
+
+	var totalShippingCost = shippingCostPer;
 	
-	estimate = '$' +((totalItemPrice * taxFactor ) + totalShippingCost).toFixed(2);
+	var estimate = '$' + ((totalItemPrice + totalShippingCost) * supportCostPer).toFixed(2);
+	var estimaterub = ((totalItemPrice + totalShippingCost) * supportCostPer * 80).toFixed(0) + ' ₽';
 	
-	document.getElementById('total_estimate').value=estimate;
+	if (shipping = 0) {
+		document.getElementById('total_estimate').value= 'введите больше информации';
+	}
+		document.getElementById('total_estimate').value=estimate + ' = ' + estimaterub;
 
-	var result_html = document.getElementById('results');
+	// var result_html = document.getElementById('results');
 
-	result_html.innerHTML = 'Total Item: ' + t_quantity + '<br>';
-	result_html.innerHTML +='Total Shipping: $' + totalShippingCost.toFixed(2) + '<br>';
-	result_html.innerHTML +='Tax:' + (( taxFactor - 1 )*100).toFixed(2) + '%';
-	
-	result_html.innerHTML +='(State:'  + state_index + ')';
-	
+	// result_html.innerHTML +='Итого: $' + totalShippingCost.toFixed(2) + '<br>';	
 
-
-	
-
-}
-
-})();
-
-
-
-
+};
+// })();

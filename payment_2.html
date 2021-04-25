@@ -25,7 +25,6 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/custom.css">
 	<link rel="stylesheet" href="css/normalize.css">
-<!-- 	<link rel="stylesheet" href="style.css"> -->
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
 	<script src="https://use.fontawesome.com/12100a7f0e.js"></script>
@@ -90,8 +89,8 @@
 										<br>Стоимость: 10$ (800₽)</p>
 									</div>
 									<div class="three col">
-										<label for="bb_sneakers">Количество: </label>
-										<input type="number" name="bb_sneakers" id="bb_sneakers" class="input-num" min="0" placeholder="0" size="3" >
+										<label for="bs0">Количество: </label>
+										<input type="number" name="bs0" id="bs0" class="input-num" min="0" placeholder="0" size="3" >
 									</div>
 								</div>
 
@@ -102,8 +101,8 @@
 										<br>Стоимость 1шт: 30$ (2300₽)</p>
 									</div>
 									<div class="three col">
-										<label for="a_jersey">Количество: </label>
-										<input type="number" name="a_jersey" id="a_jersey" class="input-num" min="0" placeholder="0" size="3" >
+										<label for="bs1">Количество: </label>
+										<input type="number" name="bs1" id="bs1" class="input-num" min="0" placeholder="0" size="3" >
 									</div>
 								</div>
 
@@ -114,8 +113,8 @@
 										<br>Стоимость 1шт: 65$ (4900₽)</p>
 									</div>
 									<div class="three col">
-										<label for="a_jersey_2">Количество: </label>
-										<input type="number" name="a_jersey" id="a_jersey" class="input-num" min="0" placeholder="0" size="3" >
+										<label for="bs2">Количество: </label>
+										<input type="number" name="bs2" id="bs2" class="input-num" min="0" placeholder="0" size="3" >
 									</div>
 								</div>
 
@@ -126,8 +125,8 @@
 										<br>Стоимость 1шт: 105$ (7900₽)</p>
 									</div>
 									<div class="three col">
-										<label for="a_jersey_3">Количество: </label>
-										<input type="number" name="a_jersey" id="a_jersey" class="input-num" min="0" placeholder="0" size="3" >
+										<label for="bs3">Количество: </label>
+										<input type="number" name="bs3" id="bs3" class="input-num" min="0" placeholder="0" size="3" >
 									</div>
 								</div>
 
@@ -149,10 +148,10 @@
 
 								<div class="row method">
 									<div class="two col point-block">
-										<input type="radio" name="ship" value="ups" id="method-ups" class="point-check"> 
+										<input type="radio" name="ship" value="fedex" id="method-fedex" class="point-check"> 
 									</div>
 									<div class="ten col point-text-block">
-										<label for="method-ups">Экспресс доставка FedEx (до 1 недели)</label>
+										<label for="method-fedex">Экспресс доставка FedEx (до 1 недели)</label>
 									</div>
 								</div>
 
@@ -187,110 +186,20 @@
 	
 						</div>
 
-<!-- 					<div class="row row_p">
-						<div class="item six col">
-							<h5>Запись на церемонию</h5>
-							<p class="info">
-								Стоимость: 8000 ₽
-							</p>
-							<div class="order">
-								<label for="bb_sneakers">Quantity Desired: </label>
-								<input type="number" name="bb_sneakers" id="bb_sneakers" min="0" placeholder="0" size="3" >
-							</div>
-						</div>
-
-						<div class="item six col">
-							<h3>ACTIVE Jersey</h3>
-							<p>Sweat harder, wick better</p>
-							<p class="info">
-								Price: $25/each
-							</p>
-							<div class="order">
-								<label for="a_jersey">Quantity Desired: </label>
-								<input type="number" name="a_jersey" id="a_jersey" min="0" placeholder="0" size="3" >
-							</div>
-						</div>
-					</div>
-
-					<div class="row row_p">
-						<div class="item six col">   
-							<h3>Power Supplements</h3>
-							<p>Get healthier, get smarter</p>
-							<p class="info">
-								Price: $30/bottle
-							</p>
-							<div class="order">
-								<label for="p_supple">Quantity Desired: </label>
-								<input type="number" name="p_supple" id="p_supple" min="0" placeholder="0" size="3" >
-							</div>
-						</div>
-						<div class="item six col">     
-							<h3>Mineral Water</h3>
-							<p>It's fizzy</p>
-							<p class="info">
-								Price: $4/bottle
-							</p>
-							<div class="order">
-								<label for="m_water">Quantity Desired: </label>
-								<input type="number" name="m_water" id="m_water" min="0" placeholder="0" size="3" >
-							</div>
-						</div>
-
-					</div> -->
-
 				</fieldset>
 
-<!-- 				<div id="summary">
+				<div class="row">
+					<h5> <label for="btn_estimate">Итоговая стоимость:</label></h5>
+				</div>
 
-					<h2>Provide the Shipping Details</h2>
-
-					<div class="row_p">
-						<div class="group col3 state">
-							<label for="state">State(required):</label>
-							<select id="id_state" name="state" required>
-								<option value="">select one</option>
-								<option value="CA">California (7.5% tax)</option>
-								<option value="IL">Illinois</option>
-								<option value="NH">New Hampshire</option>
-								<option value="PA">Pennslyvania</option>
-								<option value="WA">Washington (6.5% tax)</option>
-							</select>
-						</div>
-
-						<div class="group col3 method">
-
-							<label>Shipping and Handling:</label><br>
-							<input type="radio" name="ship" value="pickup" id="method-free" checked> <label for="method-free">Pickup(Free)</label><br>
-							<input type="radio" name="ship" value="us" id="method-us"> <label for="method-us">US mail ($2/item)</label><br>
-							<input type="radio" name="ship" value="ups" id="method-ups"> <label for="method-ups"> UPS($3/item)</label>
-
-						</div>
-
-						<div class="group col3 special">
-							<label>Special:</label><br>
-							<input type="checkbox" name="special-gift" id="gift" value="gift">
-							<label for="gift">This is a gift(include a card)</label><br>
-							<input type="checkbox" name="special-mailing" id="mailing" value="mailing">
-							<label for="mailing">Sign up for the mailing list</label><br>
-							<input type="checkbox" name="special-recipes" id="recipes" value="recipes">
-							<label for="recipes">Include free recipes</label>
-						</div>
-
+				<div class="group col2 calc row">
+					
+					<div class="btn_estimate_div">
+						<input type="submit" value="Рассчитать" id="btn_estimate" class="btn_estimate_block">
 					</div>
-
-					<div class="group col2 notes">
-						<label for="message">Other Notes:</label><br>
-						<textarea id="message" name="message" rows="10" cols="2" placeholder="Any other special requests(does not affect the estimate)"></textarea>
+					<div class="btn_estimate_div">
+						<input id="total_estimate" disabled="true" type="text" name="total" class="btn_estimate_block">
 					</div>
-
-				</div> -->
-
-				<div class="group col2 calc">
-					<h5> <label for="btn_estimate">Итоговая стоимость:</label>
-
-						<input type="submit" value="Рассчитать" id="btn_estimate">
-						<input id="total_estimate" disabled="true" type="text" name="total" >
-					</h5>
 					<div id="results">
 
 					</div>
@@ -343,7 +252,11 @@
 });
 </script>
 
-<!-- Yandex.Metrika counter -->
+</body>
+
+	<script src="script.js"></script>
+
+	<!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
@@ -358,9 +271,5 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/75855292" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-
-</body>
-
-	<script src="script.js"></script>
 
 </html>

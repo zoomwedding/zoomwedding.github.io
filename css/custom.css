@@ -171,7 +171,7 @@ html, body {
 
 .logotype-size {
 	max-height: 80px;
-	margin-left: 3%;
+	margin-left: 20%;
     max-width: 80px;
     min-width: 50px;
 }
@@ -186,7 +186,7 @@ html, body {
     margin-left: 0%;
     float: right;
     margin-right: 4%;
-    margin-top: 1%;
+	margin-top: 20px;
 }
 
 .logotype-block {
@@ -195,6 +195,7 @@ html, body {
 
 .logotype-text-block {
 	width: auto;
+	margin-left: 30px;
 }
 
 .logotype-text-block-payment {
@@ -401,6 +402,29 @@ html, body {
 
 .minstyle {
 	padding-bottom: 20px;
+}
+
+.btn_estimate_div {
+	width: auto;
+	margin-bottom: 40px;
+	margin-left: 2%;
+	display: inline;
+}
+
+.btn_estimate_block {
+	width: -webkit-fill-available;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#btn_estimate {
+	background-color: #1a1a1a;
+	color: white;
+}
+
+#btn_estimate:hover {
+    border-color: #2591de;
+    background-color: #2591de;
 }
 
 
