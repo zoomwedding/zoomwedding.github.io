@@ -416,6 +416,7 @@ html, body {
 	margin-bottom: 20px;
 	text-align: center;
 	color: black;
+	font-weight: 600;
 }
 
 #btn_estimate {
