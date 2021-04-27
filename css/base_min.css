@@ -230,6 +230,7 @@ label > .label-body {
   margin-left: .5rem;
   font-weight: normal; }
 */
+
 @media (min-width: 400px) {
   .container {width: 85%; padding: 0;}
 }
@@ -256,4 +257,20 @@ label > .label-body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#paw_wrapper {
+    color: #333;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font:  1.5em/1.5 "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
+}
+
+.paw-quantity button {
+    width: 28px;
+    height: 28px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #D1D1D1;
 }
