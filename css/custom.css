@@ -61,7 +61,7 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	background-color: #ff6479;
+	background-color: #e46274;
 	font-weight: 300;
 	padding-top: 50px;
 	padding-bottom: 4%;
@@ -434,6 +434,19 @@ html, body {
 #btn_estimate:hover {
     border-color: #2591de;
     background-color: #2591de;
+}
+
+.h3num {
+	font-size: 3.0rem;
+ 	line-height: 1.3;  
+ 	letter-spacing: -.1rem;
+  	margin-top: 0;
+ 	margin-bottom: 2rem;
+ 	font-weight: 300;
+ }
+
+ @media (min-width: 550px) {
+  .h3num {font-size: 3.6rem;}
 }
 
 
