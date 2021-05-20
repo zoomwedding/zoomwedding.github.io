@@ -61,7 +61,7 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	background-color: #ff6479;
+	background-color: #e46274;
 	font-weight: 300;
 	padding-top: 50px;
 	padding-bottom: 4%;
@@ -143,7 +143,7 @@ html, body {
 	text-align: center;
 	color: #ff6479;
 	font-weight: 500;
-	padding-top: 100px;
+	padding-top: 70px;
 	padding-bottom: 30px;
 }
 
@@ -167,6 +167,56 @@ html, body {
 
 .linkcolor {
 	color: #fff900;
+}
+
+.social_desktop{
+  	float: right;
+}
+
+.logo_desktop a {
+	float: left;
+	padding-right: 5px;
+}
+
+.logo_desktop {
+    padding-left: 5%;
+    padding-right: 4%;
+    margin-bottom: 25px;
+    height: 53px;
+}
+
+.social-logo {
+	width: 80px;
+	border: 1px solid #ccc!important;
+    border-radius: 120px;
+}
+
+.social-logo:hover {
+	background-color: white;
+}
+
+.social_desktop a {
+	float: left;
+}
+
+.logo-size {
+	width: 53px;
+}
+
+.logo-text {
+    padding-top: 15px;
+	color: #3fa9f5;
+	font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-p {
+	padding-left: 5px;
 }
 
 .logotype-size {
@@ -355,8 +405,7 @@ html, body {
 
 #ofAge {
 	color: white;
-    font-size: 2.5rem;
-    height: 5rem;
+    font-size: 2rem;
     width: 15rem;
     opacity: 100%;
 }
@@ -434,6 +483,19 @@ html, body {
 #btn_estimate:hover {
     border-color: #2591de;
     background-color: #2591de;
+}
+
+.h3num {
+	font-size: 3.0rem;
+ 	line-height: 1.3;  
+ 	letter-spacing: -.1rem;
+  	margin-top: 0;
+ 	margin-bottom: 2rem;
+ 	font-weight: 300;
+ }
+
+ @media (min-width: 550px) {
+  .h3num {font-size: 3.6rem;}
 }
 
 
