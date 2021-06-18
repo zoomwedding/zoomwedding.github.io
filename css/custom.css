@@ -315,7 +315,7 @@ html, body {
 }
 
 .img-01 {
-	max-height: 75px;
+	max-height: 100px;
 	width: auto;
 	display: block;
   	margin-left: auto;
@@ -379,6 +379,7 @@ html, body {
 	.contacts {text-align: center; padding-top: 10px;}
 	.logotype-size-bot {margin-left: 0%;}
 	.maxhr {display: none;}
+	.logotype-block-bot {padding-left: 0%;}
 }
 
 
