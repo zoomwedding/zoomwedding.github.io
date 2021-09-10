@@ -342,6 +342,18 @@ html, body {
 	margin-bottom: 4%;
 }
 
+#upbut {
+	color: #333;
+    background-color: #fbfbfb;
+    border-color: #fbfbfb;
+}
+
+#upbut:hover {
+  	color: #FFF;
+  	background-color: #3fa9f5;
+  	border-color: #3fa9f5;
+}
+
 .logotype-block-bot {
 	padding-left: 4%;
 }
