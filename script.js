@@ -42,7 +42,7 @@ function estimateTotal(event) {
 	var bs1 = parseInt(document.getElementById("bs1").value, 10 )|| 0;
 	var bs2 = parseInt(document.getElementById("bs2").value, 10 )|| 0;
 	var bs3 = parseInt(document.getElementById("bs3").value, 10 )|| 0;
-	var cer = 105;
+	var cer = 180;
 	
 	// console.log(water);
 
@@ -95,6 +95,9 @@ function estimateTotal(event) {
 			break;
 		case 'fedex':
 			shippingCostPer = 60 + 15;	
+			break;
+		case 'fedex2':
+			shippingCostPer = 120 + 30;	
 			break;
 		default :
 			shippingCostPer = 0;
