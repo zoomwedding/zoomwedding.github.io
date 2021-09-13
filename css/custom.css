@@ -31,7 +31,7 @@ html, body {
 /*	background-color: #3fa9f5;*/
 	background-color: #2591de;
 	font-weight: 300;
-	padding-top: 50px;
+	/*padding-top: 50px;*/
 	padding-bottom: 4%;
 	color: #ffffff;
 }
@@ -43,7 +43,7 @@ html, body {
     background-size: cover;
 	background-color: #334159;
 	font-weight: 300;
-	padding-top: 50px;
+	/*padding-top: 50px;*/
 	padding-bottom: 4%;
 	color: #ffffff;
 }
@@ -55,7 +55,7 @@ html, body {
     background-size: cover;
 	background-color: #325ca7;
 	font-weight: 300;
-	padding-top: 50px;
+	/*padding-top: 50px;*/
 	padding-bottom: 4%;
 	color: #ffffff;
 }
@@ -67,7 +67,7 @@ html, body {
     background-size: cover;
 	background-color: #e46274;
 	font-weight: 300;
-	padding-top: 50px;
+	/*padding-top: 50px;*/
 	padding-bottom: 4%;
 	color: #ffffff;
 }
@@ -189,7 +189,7 @@ html, body {
 .logo_desktop a {
 	float: left;
 	padding-right: 5px;
-	padding-top: 50px;
+/*	padding-top: 50px;*/
 }
 
 .logo_desktop {
@@ -197,6 +197,7 @@ html, body {
     padding-right: 4%;
     margin-bottom: 25px;
     height: 53px;
+    padding-top: 50px;
 }
 
 .social-logo {
@@ -235,7 +236,7 @@ html, body {
 
 .logo-p {
 	padding-left: 5px;
-	margin-top: revert;
+	/*margin-top: revert;*/
 }
 
 .logo-p-white {
