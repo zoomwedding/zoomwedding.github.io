@@ -15,8 +15,12 @@ html, body {
     background-size: cover;
 	background-color: #ffffff;
 	font-weight: 300;
-	padding-top: 50px;
-	padding-bottom: 4%;
+	/*padding-top: 50px;*/
+	/*padding-bottom: 4%;*/
+	/*height: 100vh;*/
+	min-height: -webkit-fill-available;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: fill-available;
 }
 
 .page-1-payment {
@@ -94,6 +98,7 @@ html, body {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	color: #ffffff;
+	border-style: dashed;
 }
 
 .page-4 {
@@ -184,6 +189,7 @@ html, body {
 .logo_desktop a {
 	float: left;
 	padding-right: 5px;
+	padding-top: 50px;
 }
 
 .logo_desktop {
@@ -229,6 +235,7 @@ html, body {
 
 .logo-p {
 	padding-left: 5px;
+	margin-top: revert;
 }
 
 .logo-p-white {
@@ -342,7 +349,7 @@ html, body {
 }
 
 .main-button {
-    margin-top: 4%;
+    margin-top: 6%;
 }
 
 .sup-button {
@@ -409,7 +416,7 @@ html, body {
 	.logotype-size-bot {margin-left: 0%;}
 	.maxhr {display: none;}
 	.logotype-block-bot {padding-left: 0%;}
-	.page-1 {padding-bottom: 9%;}
+	/*.page-1 {padding-bottom: 9%;}*/
 }
 
 
