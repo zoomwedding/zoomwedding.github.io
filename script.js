@@ -90,9 +90,9 @@ function estimateTotal(event) {
 	// }
 
 	switch(shipping){
-		case 'us':
-			shippingCostPer = 1.5 + 15; 
-			break;
+		// case 'us':
+		// 	shippingCostPer = 1.5 + 15; 
+		// 	break;
 		case 'fedex':
 			shippingCostPer = 60 + 15;	
 			break;

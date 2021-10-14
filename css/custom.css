@@ -92,13 +92,21 @@ html, body {
 	color: #ffffff;
 }
 
+.page-3-0 {
+	background-color: #5d66a0;
+	font-weight: 300;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #ffffff;
+}
+
 .page-3-1 {
 	background-color: #3f51b5;
 	font-weight: 300;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	color: #ffffff;
-	border-style: dashed;
+	/*border-style: dashed;*/
 }
 
 .page-4 {
@@ -193,8 +201,8 @@ html, body {
 }
 
 .logo_desktop {
-    padding-left: 5%;
-    padding-right: 4%;
+    padding-left: 5rem;
+    padding-right: 5rem;
     margin-bottom: 25px;
     height: 53px;
     padding-top: 50px;
@@ -304,6 +312,38 @@ html, body {
 
 .link-dec {
 	text-decoration: none;
+}
+
+.lang_active {
+	font-weight: 500;
+}
+
+.lang_active_on_color {
+	font-weight: 500;
+	color: #ffffff;
+}
+
+.lang_none {
+	color: #8e8e8e;
+    font-weight: 300;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+}
+
+.lang_none_on_color {
+	color: #d6d6d6;
+    font-weight: 300;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+}
+
+.item-right {
+	align-items: center;
+    justify-content: right;
+    display: flex;
+    padding-right: 6rem;
 }
 
 .logotype-text-white {
