@@ -94,10 +94,10 @@ function estimateTotal(event) {
 		// 	shippingCostPer = 1.5 + 15; 
 		// 	break;
 		case 'fedex':
-			shippingCostPer = 60 + 15;	
+			shippingCostPer = 110 + 15;	
 			break;
 		case 'fedex2':
-			shippingCostPer = 120 + 30;	
+			shippingCostPer = 220 + 30;	
 			break;
 		default :
 			shippingCostPer = 0;
