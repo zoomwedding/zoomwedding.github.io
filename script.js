@@ -40,8 +40,6 @@ function estimateTotal(event) {
 
 	var bs0 = parseInt(document.getElementById("bs0").value, 10 )|| 0;
 	var bs1 = parseInt(document.getElementById("bs1").value, 10 )|| 0;
-	var bs2 = parseInt(document.getElementById("bs2").value, 10 )|| 0;
-	var bs3 = parseInt(document.getElementById("bs3").value, 10 )|| 0;
 	var cer = 180;
 	
 	// console.log(water);
@@ -80,7 +78,7 @@ function estimateTotal(event) {
 	// 	estimate;
 	
 	// var t_quantity = cer + bs0 + bs1 + bs2 + bs3;
-	var totalItemPrice = cer + (bs0 * 10 ) + (bs1 * 30) + (bs2 * 65) + (bs3 * 105);
+	var totalItemPrice = cer + (bs0 * 10 ) + (bs1 * 30);
 
 	// if (state.value === 'CA'){
 	// 	taxFactor = 1.075;
