@@ -102,12 +102,16 @@ function estimateTotal(event) {
 			break;
 	}
 
+	var supportFixAd = 0;
+
 	switch(support){
 		case 'supmin':
 			supportCostPer = 2;
+			supportFixAd = 0;
 			break;
 		case 'supmax':
-			supportCostPer = 2.5;	
+			supportCostPer = 2;
+			supportFixAd = 14600;	
 			break;
 		default :
 			supportCostPer = 1;
@@ -116,13 +120,14 @@ function estimateTotal(event) {
 
 	var totalShippingCost = shippingCostPer;
 	
-	var estimate = '$' + ((totalItemPrice + totalShippingCost) * supportCostPer).toFixed(2);
-	var estimaterub = ((totalItemPrice + totalShippingCost) * supportCostPer * 80).toFixed(0) + ' ₽';
+	// var estimate = '$' + ((totalItemPrice + totalShippingCost) * supportCostPer + supportFixAd).toFixed(2);
+	var estimaterub = ((totalItemPrice + totalShippingCost) * supportCostPer * 80 + supportFixAd).toFixed(0) + ' ₽';
 	
 	if (shipping == 0) {
 		document.getElementById('total_estimate').value= 'введите больше информации';
 	}
-		document.getElementById('total_estimate').value=estimate + ' = ' + estimaterub;
+		document.getElementById('total_estimate').value=estimaterub;
+		// document.getElementById('total_estimate').value=estimate + ' = ' + estimaterub;
 
 	// var result_html = document.getElementById('results');
 
