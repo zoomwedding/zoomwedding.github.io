@@ -121,7 +121,7 @@ function estimateTotal(event) {
 	var totalShippingCost = shippingCostPer;
 	
 	// var estimate = '$' + ((totalItemPrice + totalShippingCost) * supportCostPer + supportFixAd).toFixed(2);
-	var estimaterub = ((totalItemPrice + totalShippingCost) * supportCostPer * 80 + supportFixAd).toFixed(0) + ' ₽';
+	var estimaterub = ((totalItemPrice + totalShippingCost) * supportCostPer * 85 + supportFixAd).toFixed(0) + ' ₽';
 	
 	if (shipping == 0) {
 		document.getElementById('total_estimate').value= 'введите больше информации';
