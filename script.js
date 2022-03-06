@@ -111,7 +111,7 @@ function estimateTotal(event) {
 			break;
 		case 'supmax':
 			supportCostPer = 2;
-			supportFixAd = 14600;	
+			supportFixAd = 170;	
 			break;
 		default :
 			supportCostPer = 1;
@@ -121,7 +121,7 @@ function estimateTotal(event) {
 	var totalShippingCost = shippingCostPer;
 	
 	// var estimate = '$' + ((totalItemPrice + totalShippingCost) * supportCostPer + supportFixAd).toFixed(2);
-	var estimaterub = ((totalItemPrice + totalShippingCost) * supportCostPer * 85 + supportFixAd).toFixed(0) + ' ₽';
+	var estimaterub = '$' + ((totalItemPrice + totalShippingCost) * supportCostPer + supportFixAd).toFixed(0);
 	
 	if (shipping == 0) {
 		document.getElementById('total_estimate').value= 'введите больше информации';
