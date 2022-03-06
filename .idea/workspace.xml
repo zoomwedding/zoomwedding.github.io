@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac30a0d8-13f0-454b-bcf7-010f3b6134c8" name="Default Changelist" comment="" />
+    <list default="true" id="ac30a0d8-13f0-454b-bcf7-010f3b6134c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +15,9 @@
     <option name="defaultAccountId" value="7e4c1379-43b1-4c46-8bac-dd855f85251d" />
   </component>
   <component name="JupyterTrust" id="cae61a23-4a3f-4a23-9395-a8bedea899e5" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1zlwpClTPhvJw2yqfvcnEUAARGN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,7 +41,7 @@
       <workItem from="1646574618387" duration="65000" />
       <workItem from="1646574998068" duration="192000" />
       <workItem from="1646575214033" duration="495000" />
-      <workItem from="1646575728132" duration="162000" />
+      <workItem from="1646575728132" duration="1571000" />
     </task>
     <servers />
   </component>
