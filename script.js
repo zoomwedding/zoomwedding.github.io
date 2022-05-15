@@ -106,12 +106,12 @@ function estimateTotal(event) {
 
 	switch(support){
 		case 'supmin':
-			supportCostPer = 2;
+			supportCostPer = 2.4;
 			supportFixAd = 0;
 			break;
 		case 'supmax':
-			supportCostPer = 2;
-			supportFixAd = 170;	
+			supportCostPer = 2.4;
+			supportFixAd = 200;	
 			break;
 		default :
 			supportCostPer = 1;
