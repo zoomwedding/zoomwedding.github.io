@@ -4,6 +4,11 @@ html, body {
 	margin: 0;
 }
 
+a {
+    color: #3fa9f5;
+    font-weight: 400;
+}
+
 
 /*Pages
 ......................................................................*/
@@ -37,10 +42,8 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-/*	background-color: #3fa9f5;*/
 	background-color: #2591de;
 	font-weight: 300;
-	/*padding-top: 50px;*/
 	padding-bottom: 4%;
 	color: #ffffff;
 }
@@ -52,9 +55,30 @@ html, body {
     background-size: cover;
 	background-color: #334159;
 	font-weight: 300;
-	/*padding-top: 50px;*/
 	padding-bottom: 4%;
 	color: #ffffff;
+}
+
+.page-1-anketa {
+	background-clip: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color: #4a69ff73;
+	font-weight: 300;
+	padding-bottom: 4%;
+	color: #ffffff;
+}
+
+.anketa {
+	height: 80vh;
+    border: 2px solid #fff!important;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.page-9 a {
+    color: #c4c4c4;
 }
 
 .page-1-termsofuse {
@@ -64,7 +88,6 @@ html, body {
     background-size: cover;
 	background-color: #325ca7;
 	font-weight: 300;
-	/*padding-top: 50px;*/
 	padding-bottom: 4%;
 	color: #ffffff;
 }
