@@ -7,20 +7,29 @@ html, body {
 
 /*Pages
 ......................................................................*/
+
 .page-1 {
-	background-image: url(../img/main_background_v2.png);
-	background-clip: border-box;
+    position: relative;
+    font-weight: 300;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.page-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../img/main_background_v2.png);
+    background-clip: border-box;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	background-color: #ffffff;
-	font-weight: 300;
-	/*padding-top: 50px;*/
-	/*padding-bottom: 4%;*/
-	/*height: 100vh;*/
-	min-height: -webkit-fill-available;
-    width: -moz-available;          /* WebKit-based browsers will ignore this. */
-    width: fill-available;
+    filter: blur(5px);
+    z-index: -1;
 }
 
 .page-1-payment {
@@ -101,7 +110,7 @@ html, body {
 }
 
 .page-3-1 {
-	background-color: #3f51b5;
+	background-color: #5d66a0;
 	font-weight: 300;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -164,7 +173,7 @@ html, body {
 	text-align: center;
 	color: #ff6479;
 	font-weight: 500;
-	padding-top: 70px;
+	padding-top: 15%;
 	padding-bottom: 30px;
 }
 
