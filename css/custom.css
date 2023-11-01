@@ -478,6 +478,7 @@ a {
 	.ten.col.logotype-text-block {width: auto;}
 	.two.col.point-block {width: 40px;}
 	.minhr {display: none;}
+	.logo_desktop {padding-left: 2rem; padding-right: 2rem;}
 }
 
 @media (max-width: 550px) {
@@ -489,7 +490,7 @@ a {
 	.logotype-size-bot {margin-left: 0%;}
 	.maxhr {display: none;}
 	.logotype-block-bot {padding-left: 0%;}
-	/*.page-1 {padding-bottom: 9%;}*/
+	.logo_desktop {padding-left: 2rem; padding-right: 2rem;}
 }
 
 
