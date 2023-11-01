@@ -70,17 +70,6 @@ a {
 	color: #ffffff;
 }
 
-.anketa {
-	height: 80vh;
-    border: 2px solid #fff!important;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.page-9 a {
-    color: #c4c4c4;
-}
-
 .page-1-termsofuse {
 	background-clip: border-box;
     background-position: center;
@@ -135,10 +124,9 @@ a {
 .page-3-1 {
 	background-color: #5d66a0;
 	font-weight: 300;
-	padding-top: 25px;
+	padding-top: 0px;
 	padding-bottom: 25px;
 	color: #ffffff;
-	/*border-style: dashed;*/
 }
 
 .page-4 {
@@ -192,6 +180,17 @@ a {
 }
 
 /*....................................................................*/
+.anketa {
+	height: 80vh;
+    border: 2px solid #fff!important;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.page-9 a {
+    color: #c4c4c4;
+}
+
 .main-tit {
 	text-align: center;
 	color: #ff6479;
@@ -293,7 +292,7 @@ a {
 
 .logotype-size-bot {
 	max-width: 50px;
-	margin-left: 18%;
+/*	margin-left: 18%;*/
 }
 
 .telegram-size {
@@ -478,7 +477,6 @@ a {
 	.ten.col.logotype-text-block {width: auto;}
 	.two.col.point-block {width: 40px;}
 	.minhr {display: none;}
-	.logo_desktop {padding-left: 2rem; padding-right: 2rem;}
 }
 
 @media (max-width: 550px) {
@@ -626,4 +624,6 @@ a {
 	font-weight: 300;
 }
 
-
+.page-9 .link-dec {
+	text-align: center;
+}
