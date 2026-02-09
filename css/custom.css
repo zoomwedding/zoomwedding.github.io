@@ -346,22 +346,23 @@ a {
 
 .lang_active {
 	font-weight: 500;
+	color: #8e8e8e;
 }
 
 .lang_active_on_color {
 	font-weight: 500;
-	color: #ffffff;
+	color: #8e8e8e;
 }
 
 .lang_none {
-	color: #8e8e8e;
+	color: #000000;
     font-weight: 300;
     text-decoration: none;
     cursor: pointer;
 }
 
 .lang_none_on_color {
-	color: #d6d6d6;
+	color: #000000;
     font-weight: 300;
     text-decoration: none;
     cursor: pointer;
